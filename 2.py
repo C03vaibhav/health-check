@@ -14,19 +14,19 @@ def is_prime(num):
     return True
 
 # Initialize variables for sum, prime count, and composite count
-sum_of_numbers = 0
-prime_count = 0
-composite_count = 0
+sum_numbers = 0
+primes_count = 0
+composites_count = 0
 
 # Loop through numbers from 1 to 100
 for num in range(1, 101):
-    sum_of_numbers += num
+    sum_numbers += num
     if is_prime(num):
-        prime_count += 1
+        primes_count += 1
     else:
-        composite_count += 1
+        composites_count += 1
 
 # Print the results
-print("Sum of numbers from 1 to 100:", sum_of_numbers)
-print("Number of prime numbers in the range:", prime_count)
-print("Number of composite numbers in the range:", composite_count)
+print("Sum of numbers from 1 to 100:", sum_numbers)
+print("Number of prime numbers in the range:", primes_count)
+print("Number of composite numbers in the range:", composites_count)
