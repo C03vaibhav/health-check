@@ -14,6 +14,7 @@ def is_prime(num):
     return True
 
 # Initialize variables for sum, prime count, and composite count
+
 num_sum = 0
 prime_num_count = 0
 composite_num_count = 0
