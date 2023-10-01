@@ -1,1 +1,1 @@
-print('Health ok')
+print('Health oks')
