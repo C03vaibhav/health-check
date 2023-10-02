@@ -1,1 +1,0 @@
-print('6th health python file')
