@@ -4,3 +4,4 @@ this contains python codes
 python codes are easy to understand with descriptive comments.
 
 This helps the coder a lot.
+Helpful a lot.
